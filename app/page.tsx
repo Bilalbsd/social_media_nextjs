@@ -1,11 +1,9 @@
-import { Button } from "@/components/ui/button";
-import { ModeToggle } from "./components/ModeToggle";
+import Header from "../src/components/Header";
 
 export default function Home() {
   return (
     <div>
-      <ModeToggle />
-      <Button>Envoyer</Button>
+      <Header />
     </div>
   )
 }
