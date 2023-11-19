@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { ModeToggle } from "./ModeToggle";
+import LogInBtn from "./LogInBtn";
 
 export default function Header() {
   return (
@@ -8,7 +9,7 @@ export default function Header() {
       <div className="mx-auto flex items-center justify-around">
         <h2 className="text-xl cursor-pointer">Header</h2>
         <div className="flex justify-end space-x-3">
-          <Button>LogIn</Button>
+          <LogInBtn />
           <ModeToggle />
         </div>
       </div>
